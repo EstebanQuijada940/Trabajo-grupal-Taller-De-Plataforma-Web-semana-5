@@ -21,6 +21,9 @@ const options = {
 app.get('/', (req, res) => {
     res.send('<h1>Servidor Seguro con HTTPS Activo</h1><p>Esta conexión está cifrada.</p>');
 });
+app.get('/status', (req, res) => {
+    res.json({ estado: 'Conexión Segura', protocolo: 'HTTPS' });
+});
 
 // 3. Crear el servidor HTTPS pasando la app de Express y las opciones SSL
 https.createServer(options, app).listen(PORT, () => {
