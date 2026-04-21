@@ -1,13 +1,13 @@
 {
   "name": "cib302_taller_de_plataformas_web_semana-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Servidor HTTPS seguro con Express y OpenSSL - Semana 5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "avier Molina, Juan Peredo, Esteban Quijada",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
