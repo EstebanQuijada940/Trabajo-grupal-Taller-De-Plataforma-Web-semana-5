@@ -1,2 +1,6 @@
 node_modules/
 certs/
+# Archivos de registro y sistema
+npm-debug.log*
+.DS_Store
+Thumbs.db
